@@ -1,0 +1,4 @@
+# CentralPeripheralTool
+
+简单的实现了CoreBluetooth中的CBCentral和CBPeripheral
+希望对于CoreBluetooth的一些工作原理有简单的理解关于工程有机会的话会持续更新下去
