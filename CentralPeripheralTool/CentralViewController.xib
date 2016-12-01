@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CentralViewController">
+            <connections>
+                <outlet property="logTxtV" destination="F7e-72-sBl" id="EcJ-Vd-P5G"/>
+                <outlet property="peripheralsTV" destination="KGC-CY-RBK" id="eJg-Wq-uGY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KGC-CY-RBK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="546"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F7e-72-sBl">
+                    <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="DoX-K2-J33"/>
+                    </constraints>
+                    <color key="textColor" red="1" green="0.12004949250370089" blue="0.05845312086559773" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;&gt;Log&lt;&lt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhK-Hu-VdM">
+                    <rect key="frame" x="0.0" y="546" width="375" height="21"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.06490368051008033" blue="0.043471383850508305" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KGC-CY-RBK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DsP-lf-zXX"/>
+                <constraint firstItem="KGC-CY-RBK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="HnR-oz-h4q"/>
+                <constraint firstAttribute="trailing" secondItem="PhK-Hu-VdM" secondAttribute="trailing" id="Iwg-K1-AC4"/>
+                <constraint firstItem="F7e-72-sBl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="RbI-0s-HXl"/>
+                <constraint firstItem="PhK-Hu-VdM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Vn7-wd-qil"/>
+                <constraint firstAttribute="trailing" secondItem="F7e-72-sBl" secondAttribute="trailing" id="VsQ-B9-jJa"/>
+                <constraint firstAttribute="trailing" secondItem="KGC-CY-RBK" secondAttribute="trailing" id="aU7-Kb-BDH"/>
+                <constraint firstItem="F7e-72-sBl" firstAttribute="top" secondItem="PhK-Hu-VdM" secondAttribute="bottom" id="hG9-hO-QYH"/>
+                <constraint firstItem="PhK-Hu-VdM" firstAttribute="top" secondItem="KGC-CY-RBK" secondAttribute="bottom" id="hTk-P7-13M"/>
+                <constraint firstAttribute="bottom" secondItem="F7e-72-sBl" secondAttribute="bottom" id="svu-MH-ANp"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

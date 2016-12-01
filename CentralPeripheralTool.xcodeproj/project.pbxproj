@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		542B6B0F1DED5B5200858026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B6B0E1DED5B5200858026 /* main.m */; };
 		542B6B121DED5B5200858026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B6B111DED5B5200858026 /* AppDelegate.m */; };
-		542B6B151DED5B5200858026 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B6B141DED5B5200858026 /* ViewController.m */; };
-		542B6B181DED5B5200858026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542B6B161DED5B5200858026 /* Main.storyboard */; };
 		542B6B1A1DED5B5200858026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542B6B191DED5B5200858026 /* Assets.xcassets */; };
 		542B6B1D1DED5B5200858026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542B6B1B1DED5B5200858026 /* LaunchScreen.storyboard */; };
 		542B6B281DED5B5300858026 /* CentralPeripheralToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B6B271DED5B5300858026 /* CentralPeripheralToolTests.m */; };
 		542B6B331DED5B5300858026 /* CentralPeripheralToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B6B321DED5B5300858026 /* CentralPeripheralToolUITests.m */; };
+		54AA64361DEE727E0015022E /* SingleCharacteristicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64341DEE727E0015022E /* SingleCharacteristicViewController.m */; };
+		54AA64371DEE727E0015022E /* SingleCharacteristicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64351DEE727E0015022E /* SingleCharacteristicViewController.xib */; };
+		54AA643B1DEE8DFB0015022E /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64391DEE8DFB0015022E /* PeripheralViewController.m */; };
+		54AA643C1DEE8DFB0015022E /* PeripheralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AA643A1DEE8DFB0015022E /* PeripheralViewController.xib */; };
+		54D3401D1DED6D03002E22C7 /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3401B1DED6D03002E22C7 /* CentralViewController.m */; };
+		54D3401E1DED6D03002E22C7 /* CentralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D3401C1DED6D03002E22C7 /* CentralViewController.xib */; };
+		54D3402D1DEDBC64002E22C7 /* SinglePeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3402B1DEDBC64002E22C7 /* SinglePeripheralViewController.m */; };
+		54D3402E1DEDBC64002E22C7 /* SinglePeripheralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D3402C1DEDBC64002E22C7 /* SinglePeripheralViewController.xib */; };
+		54E4731F1DED61D30080FD2A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54E4731D1DED61D30080FD2A /* MainViewController.m */; };
+		54E473201DED61D30080FD2A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54E4731E1DED61D30080FD2A /* MainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +47,6 @@
 		542B6B0E1DED5B5200858026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		542B6B101DED5B5200858026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		542B6B111DED5B5200858026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		542B6B131DED5B5200858026 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		542B6B141DED5B5200858026 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		542B6B171DED5B5200858026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		542B6B191DED5B5200858026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		542B6B1C1DED5B5200858026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		542B6B1E1DED5B5200858026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +56,21 @@
 		542B6B2E1DED5B5300858026 /* CentralPeripheralToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CentralPeripheralToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542B6B321DED5B5300858026 /* CentralPeripheralToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CentralPeripheralToolUITests.m; sourceTree = "<group>"; };
 		542B6B341DED5B5300858026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AA64331DEE727E0015022E /* SingleCharacteristicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleCharacteristicViewController.h; sourceTree = "<group>"; };
+		54AA64341DEE727E0015022E /* SingleCharacteristicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleCharacteristicViewController.m; sourceTree = "<group>"; };
+		54AA64351DEE727E0015022E /* SingleCharacteristicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleCharacteristicViewController.xib; sourceTree = "<group>"; };
+		54AA64381DEE8DFB0015022E /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		54AA64391DEE8DFB0015022E /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
+		54AA643A1DEE8DFB0015022E /* PeripheralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeripheralViewController.xib; sourceTree = "<group>"; };
+		54D3401A1DED6D03002E22C7 /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		54D3401B1DED6D03002E22C7 /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		54D3401C1DED6D03002E22C7 /* CentralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CentralViewController.xib; sourceTree = "<group>"; };
+		54D3402A1DEDBC64002E22C7 /* SinglePeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePeripheralViewController.h; sourceTree = "<group>"; };
+		54D3402B1DEDBC64002E22C7 /* SinglePeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglePeripheralViewController.m; sourceTree = "<group>"; };
+		54D3402C1DEDBC64002E22C7 /* SinglePeripheralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SinglePeripheralViewController.xib; sourceTree = "<group>"; };
+		54E4731C1DED61D30080FD2A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		54E4731D1DED61D30080FD2A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		54E4731E1DED61D30080FD2A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +121,17 @@
 		542B6B0C1DED5B5200858026 /* CentralPeripheralTool */ = {
 			isa = PBXGroup;
 			children = (
+				54D3401F1DED6D0E002E22C7 /* Peripheral */,
+				54E4731A1DED61840080FD2A /* Central */,
 				542B6B101DED5B5200858026 /* AppDelegate.h */,
 				542B6B111DED5B5200858026 /* AppDelegate.m */,
-				542B6B131DED5B5200858026 /* ViewController.h */,
-				542B6B141DED5B5200858026 /* ViewController.m */,
-				542B6B161DED5B5200858026 /* Main.storyboard */,
 				542B6B191DED5B5200858026 /* Assets.xcassets */,
 				542B6B1B1DED5B5200858026 /* LaunchScreen.storyboard */,
 				542B6B1E1DED5B5200858026 /* Info.plist */,
 				542B6B0D1DED5B5200858026 /* Supporting Files */,
+				54E4731C1DED61D30080FD2A /* MainViewController.h */,
+				54E4731D1DED61D30080FD2A /* MainViewController.m */,
+				54E4731E1DED61D30080FD2A /* MainViewController.xib */,
 			);
 			path = CentralPeripheralTool;
 			sourceTree = "<group>";
@@ -138,6 +160,32 @@
 				542B6B341DED5B5300858026 /* Info.plist */,
 			);
 			path = CentralPeripheralToolUITests;
+			sourceTree = "<group>";
+		};
+		54D3401F1DED6D0E002E22C7 /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				54AA64381DEE8DFB0015022E /* PeripheralViewController.h */,
+				54AA64391DEE8DFB0015022E /* PeripheralViewController.m */,
+				54AA643A1DEE8DFB0015022E /* PeripheralViewController.xib */,
+			);
+			name = Peripheral;
+			sourceTree = "<group>";
+		};
+		54E4731A1DED61840080FD2A /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				54D3401A1DED6D03002E22C7 /* CentralViewController.h */,
+				54D3401B1DED6D03002E22C7 /* CentralViewController.m */,
+				54D3401C1DED6D03002E22C7 /* CentralViewController.xib */,
+				54D3402A1DEDBC64002E22C7 /* SinglePeripheralViewController.h */,
+				54D3402B1DEDBC64002E22C7 /* SinglePeripheralViewController.m */,
+				54D3402C1DEDBC64002E22C7 /* SinglePeripheralViewController.xib */,
+				54AA64331DEE727E0015022E /* SingleCharacteristicViewController.h */,
+				54AA64341DEE727E0015022E /* SingleCharacteristicViewController.m */,
+				54AA64351DEE727E0015022E /* SingleCharacteristicViewController.xib */,
+			);
+			name = Central;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				542B6B1D1DED5B5200858026 /* LaunchScreen.storyboard in Resources */,
+				54E473201DED61D30080FD2A /* MainViewController.xib in Resources */,
+				54D3401E1DED6D03002E22C7 /* CentralViewController.xib in Resources */,
+				54AA64371DEE727E0015022E /* SingleCharacteristicViewController.xib in Resources */,
+				54AA643C1DEE8DFB0015022E /* PeripheralViewController.xib in Resources */,
 				542B6B1A1DED5B5200858026 /* Assets.xcassets in Resources */,
-				542B6B181DED5B5200858026 /* Main.storyboard in Resources */,
+				54D3402E1DEDBC64002E22C7 /* SinglePeripheralViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +328,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				542B6B151DED5B5200858026 /* ViewController.m in Sources */,
+				54D3402D1DEDBC64002E22C7 /* SinglePeripheralViewController.m in Sources */,
+				54AA643B1DEE8DFB0015022E /* PeripheralViewController.m in Sources */,
+				54AA64361DEE727E0015022E /* SingleCharacteristicViewController.m in Sources */,
 				542B6B121DED5B5200858026 /* AppDelegate.m in Sources */,
+				54E4731F1DED61D30080FD2A /* MainViewController.m in Sources */,
+				54D3401D1DED6D03002E22C7 /* CentralViewController.m in Sources */,
 				542B6B0F1DED5B5200858026 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		542B6B161DED5B5200858026 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				542B6B171DED5B5200858026 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		542B6B1B1DED5B5200858026 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -373,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -430,6 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryoma.CentralPeripheralTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -442,6 +491,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryoma.CentralPeripheralTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -514,6 +564,7 @@
 				542B6B391DED5B5300858026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		542B6B3A1DED5B5300858026 /* Build configuration list for PBXNativeTarget "CentralPeripheralToolTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +573,7 @@
 				542B6B3C1DED5B5300858026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		542B6B3D1DED5B5300858026 /* Build configuration list for PBXNativeTarget "CentralPeripheralToolUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +582,7 @@
 				542B6B3F1DED5B5300858026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

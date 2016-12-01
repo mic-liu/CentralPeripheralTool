@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PeripheralViewController">
+            <connections>
+                <outlet property="logTxtV" destination="SkE-UD-XaF" id="XHJ-fj-bSb"/>
+                <outlet property="startPeripheralBtn" destination="8oW-fu-Bhh" id="sNM-sV-qlO"/>
+                <outlet property="updateCharacteristicBtn" destination="nZ7-R4-1Zb" id="jCq-Dk-42h"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8oW-fu-Bhh">
+                    <rect key="frame" x="16" y="20" width="343" height="30"/>
+                    <state key="normal" title="Start Peripheral"/>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SkE-UD-XaF">
+                    <rect key="frame" x="0.0" y="367" width="375" height="300"/>
+                    <color key="backgroundColor" red="0.0036368646838743765" green="0.0076101036269430322" blue="0.0075136951794784338" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="WBs-hK-ywQ"/>
+                    </constraints>
+                    <color key="textColor" red="1" green="0.13676446355604022" blue="0.081902585580706844" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZ7-R4-1Zb">
+                    <rect key="frame" x="16" y="58" width="343" height="30"/>
+                    <state key="normal" title="Update Characteristic"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&gt;&gt;Log&lt;&lt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0P-Zk-oOk">
+                    <rect key="frame" x="0.0" y="346" width="375" height="21"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nZ7-R4-1Zb" secondAttribute="trailing" constant="16" id="3mc-IE-dBs"/>
+                <constraint firstAttribute="bottom" secondItem="SkE-UD-XaF" secondAttribute="bottom" id="7TR-LJ-8eh"/>
+                <constraint firstItem="z0P-Zk-oOk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="81A-03-7t9"/>
+                <constraint firstAttribute="trailing" secondItem="SkE-UD-XaF" secondAttribute="trailing" id="C0p-bD-Qjm"/>
+                <constraint firstAttribute="trailing" secondItem="z0P-Zk-oOk" secondAttribute="trailing" id="Fwx-nl-UMD"/>
+                <constraint firstItem="nZ7-R4-1Zb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="YXm-vd-plP"/>
+                <constraint firstItem="SkE-UD-XaF" firstAttribute="top" secondItem="z0P-Zk-oOk" secondAttribute="bottom" id="fO9-LJ-8nx"/>
+                <constraint firstItem="nZ7-R4-1Zb" firstAttribute="top" secondItem="8oW-fu-Bhh" secondAttribute="bottom" constant="8" id="fVn-7q-rc8"/>
+                <constraint firstItem="SkE-UD-XaF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="j8Z-EB-gDp"/>
+                <constraint firstAttribute="trailing" secondItem="8oW-fu-Bhh" secondAttribute="trailing" constant="16" id="lKT-4Z-WoJ"/>
+                <constraint firstItem="8oW-fu-Bhh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="mMf-SR-fSC"/>
+                <constraint firstItem="8oW-fu-Bhh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="wc5-6D-Gui"/>
+            </constraints>
+            <point key="canvasLocation" x="35.5" y="141.5"/>
+        </view>
+    </objects>
+</document>
